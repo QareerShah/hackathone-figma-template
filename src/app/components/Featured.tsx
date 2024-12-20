@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
+
 
 const Featured = () => {
   return (
@@ -13,114 +13,23 @@ const Featured = () => {
 
 
 
-                                  
+     {/* Heading Text */}
+     <div className="text-center mt-10 w-[90%] mx-auto">
+        <h1 className="lg:text-[56px] md:text-[40px] sm:text-[30px] text-[25px] font-medium capitalize">
+          Step into what feels good
+        </h1>
+        <p className="lg:text-[13px] md:text-[12px] sm:text-[10px] text-[9px]">
+        Cause everyone should know the feeling of running in that perfect pair.
+        </p>
+        {/* button */}
+        <button
+  className="bg-black text-white rounded-full py-3 px-6 min-w-[200px] sm:min-w-[120px] text-center whitespace-nowrap mt-8 lg:text-[15px] md:text-[14px] sm:text-[13px] text-[12px]"
+>
+  Find Your Shoe
+</button>
 
-                     {/* geer up heading */}
-
-
-     <div>
-     <h2 className='lg:text-[27px] md:text-[22px] text-[19px] font-semibold items-center my-8' >Geer Up</h2>
-        </div>      
-
-
-                     {/* arrow button section */}
-     <div className='grid grid-cols-2 space-x-7 justify-evenly items-center'>
-
-                     
-
-                     {/* 1st section */}
-<div className="col-span-1 flex items-center justify-center space-x-4">
-  {/* Text */}
-  <span>Shop Men&apos;s</span>
-
-  {/* Arrow buttons */}
-  <div className="flex space-x-2">
-    <button className="rounded-full bg-slate-200 p-2">
-      <FaArrowLeft className="text-black" />
-    </button>
-    <button className="rounded-full bg-slate-200 p-2">
-      <FaArrowRight className="text-black" />
-    </button>
-  </div>
-</div>
-
-
-
-                            {/* 2nd section */}
-                       
-           {/* 1st section */}
-<div className="col-span-1 flex items-center justify-center space-x-4">
-  {/* Text */}
-  <span>Shop Women&apos;s</span>
-
-  {/* Arrow buttons */}
-  <div className="flex space-x-2">
-    <button className="rounded-full bg-slate-200 p-2">
-      <FaArrowLeft className="text-black" />
-    </button>
-    <button className="rounded-full bg-slate-200 p-2">
-      <FaArrowRight className="text-black" />
-    </button>
-  </div>
-</div>
-
-
-
-             </div>
-
-
-
-
-               {/* pictures */}
-
- <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2  mt-7  space-x-4 justify-between' >
-
-{/* card 1 */}
-<div className=' '>
-<Image src="/images/Image7.png" alt='image1' width={400} height={400} className='w-full object-contain'/>
-<div className='flex justify-between items-center mx-1 font-bold mt-5'>
-<p>Nike Air Max Pulse</p>
-<p>₹ 13 995</p>
-</div>
-<p className='mx-1 font-semibold text-black opacity-60'>Men&apos;s Shoes</p>
-</div>
-
-
-{/* card 2 */}
-<div className=' '>
-<Image src="/images/Image4.png" alt='image1' width={400} height={400} className='w-full object-contain'/>
-<div className='flex justify-between items-center mx-1 font-bold mt-5'>
-<p>Nike Air Max Pulse</p>
-<p>₹ 13 995</p>
-</div>
-<p className='mx-1 font-semibold text-black opacity-60'>Women&apos;s Shoes</p>
-</div>
-
-
-
-{/* card 3 */}
-<div className=' '>
-<Image src="/images/Image6.png" alt='image1' width={400} height={400} className='w-full object-contain'/>
-<div className='flex justify-between items-center mx-1 font-bold mt-5'>
-<p>Nike Air Max Pulse</p>
-<p>₹ 13 995</p>
-</div>
-<p className='mx-1 font-semibold text-black opacity-60'>Women&apos;s Shoes</p>
-</div>
-
-
-
-{/* card 4 */}
-<div >
-<Image src="/images/Image5.png" alt='image1' width={400} height={400} className='w-full object-contain'/>
-<div className='flex justify-between items-center mx-1 font-bold mt-5'>
-<p>Nike Air Max Pulse</p>
-<p>₹ 13 995</p>
-</div>
-<p className='mx-1 font-semibold text-black opacity-60'>Men&apos;s Shoes</p>
-</div>
-
-</div>   
+      </div>
+      
 
     </main>
   )

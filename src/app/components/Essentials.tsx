@@ -23,49 +23,61 @@ const Essentials = () => {
 
                                   {/* Grid section */}
 
-        <h2 className='lg:text-[27px] md:text-[22px] text-[19px] font-bold'>The Essentials</h2>       
+        <h2 className='lg:text-[27px] md:text-[22px] text-[19px] font-bold my-7'>The Essentials</h2>       
 
-        {/* pictures */}
+                     {/* Pictures */}
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2  gap-4 justify-between mt-7">
-  {/* Card 1 */}
-  <div className="w-[400px] h-[400px]">
-    <Image
-      src="/images/Image10.png"
-      alt="image1"
-      width={400}
-      height={400}
-      className="w-full h-full object-cover"
-    />
-  </div>
+   <div className="flex  md:flex-row flex-col justify-center items-center gap-6">
 
-  {/* Card 2 */}
-  <div className="w-[400px] h-[400px]">
-    <Image
-      src="/images/Image9.png"
-      alt="image1"
-      width={400}
-      height={400}
-      className="w-full h-full object-cover"
-    />
-  </div>
-
-  {/* Card 3 */}
-  <div className="w-[400px] h-[400px]">
-    <Image
-      src="/images/Image12.png"
-      alt="image1"
-      width={400}
-      height={400}
-      className="w-full h-full object-cover"
-    />
+                  {/* image 1 */}
+   <div className="relative max-w-full overflow-hidden">
+  <Image
+    src="/images/Image10.png"
+    alt="image"
+    width={440}
+    height={540}
+    className="w-auto h-auto"
+  />
+  <div className="cursor-pointer absolute bottom-4 left-4 bg-white hover:bg-slate-300 text-black text-sm font-semibold px-4 py-2 rounded-full shadow-md">
+    Men&apos;s
   </div>
 </div>
+
+  {/* image 2 */}
+  <div className="relative max-w-full overflow-hidden">
+  <Image
+    src="/images/Image12.png"
+    alt="image"
+    width={440}
+    height={540}
+    className="w-auto h-auto"
+  />
+  <div className="cursor-pointer absolute bottom-4 left-4 bg-white hover:bg-slate-300 text-black text-sm font-semibold px-4 py-2 rounded-full shadow-md">
+    Women&apos;s
+  </div>
+</div>
+  {/* image 3 */}
+  <div className="relative max-w-full overflow-hidden">
+  <Image
+    src="/images/Image13.png"
+    alt="image"
+    width={440}
+    height={540}
+    className="w-auto h-auto"
+  />
+  <div className="cursor-pointer absolute bottom-4 left-4 bg-white hover:bg-slate-300 text-black text-sm font-semibold px-4 py-2 rounded-full shadow-md">
+    Kid&apos;s
+  </div>
+</div>
+</div>
+
+
+
 
  
 
                               {/* text flex section */}
-<div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-4 mt-11 p-[100px] justify-between items-center mx-auto">
+<div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-4 my-11 lg:p-[100px] md:p-[50px] sm:p-[40px] justify-center text-center items-center mx-auto">
   {/* 1st part */}
   <div>
     <h2 className="text-[19px] font-medium">Icons</h2>
@@ -95,11 +107,11 @@ const Essentials = () => {
 
   {/* 4th part */}
   <div>
-    <h2 className="text-[19px] font-medium">Kids&#39;</h2>
+    <h2 className="text-[19px] font-medium">Kid&#39;s</h2>
     <p className="text-[15px] text-black text-opacity-70 mt-4 font-medium">Infant & Toddler Shoes</p>
-    <p className="text-[15px] text-black text-opacity-70 mt-4 font-medium">Kids&#39; Shoes</p>
-    <p className="text-[15px] text-black text-opacity-70 mt-4 font-medium">Kids&#39; Jordan Shoes</p>
-    <p className="text-[15px] text-black text-opacity-70 mt-4 font-medium">Kids&#39; Basketball Shoes</p>
+    <p className="text-[15px] text-black text-opacity-70 mt-4 font-medium">Kid&#39;s Shoes</p>
+    <p className="text-[15px] text-black text-opacity-70 mt-4 font-medium">Kid&#39;s Jordan Shoes</p>
+    <p className="text-[15px] text-black text-opacity-70 mt-4 font-medium">Kid&#39;s Basketball Shoes</p>
   </div>
 </div>
 
