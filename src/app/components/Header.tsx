@@ -22,12 +22,12 @@ const Header = () => {
           {/* Text on the Right */}
           <ul className="flex flex-wrap justify-end space-x-2 sm:space-x-4 text-[10px] sm:text-[11px] font-medium mr-2 sm:mr-5">
             <li>
-              <Link href="/store">
+              <Link href="#">
                 Find a Store&nbsp;&nbsp;| 
               </Link>
             </li>
             <li>
-              <Link href="/store">
+              <Link href="#">
                 Help&nbsp;&nbsp;| 
               </Link>
             </li>
@@ -37,7 +37,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href="/store">Sign in</Link>
+              <Link href="/sign-in">Sign in</Link>
             </li>
           </ul>
         </div>
